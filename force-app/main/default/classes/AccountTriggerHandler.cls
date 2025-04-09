@@ -13,7 +13,7 @@ public class AccountTriggerHandler {
             isExecuting = false;
         }
     }
-    
+    my modification 2
     private static void updateOpportunitiesOnAccountTypeChange(List<Account> newAccounts, Map<Id, Account> oldAccountsMap) {
         Set<Id> accountsWithTypeChangeToClient = new Set<Id>();
         
